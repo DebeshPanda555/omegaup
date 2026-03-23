@@ -624,7 +624,7 @@ nav.navbar {
     display: none !important;
   }
 
-  .nav-problems .collapse-links {
+  .nav-problems .collapse-links:not(.show) {
     display: none;
   }
 
